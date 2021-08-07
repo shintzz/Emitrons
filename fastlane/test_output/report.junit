@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='emitronTests.xctest' tests='114' failures='0'>
+  <testsuite name='emitronTests.BookmarkAdapterTest' tests='4' failures='0'>
+    <testcase classname='emitronTests.BookmarkAdapterTest' name='testInvalidTypeThrows' time='0.022'/>
+    <testcase classname='emitronTests.BookmarkAdapterTest' name='testMissingContentRelationshipThrows' time='0.002'/>
+    <testcase classname='emitronTests.BookmarkAdapterTest' name='testInvalidCreatedAtThrows' time='0.001'/>
+    <testcase classname='emitronTests.BookmarkAdapterTest' name='testValidResourceProcessedCorrectly' time='0.002'/>
+  </testsuite>
+  <testsuite name='emitronTests.ContentAdapterTest' tests='21' failures='0'>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testInvalidDifficultyThrows' time='0.005'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingDescriptionThrows' time='0.006'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingOrdinalIsAcceptable' time='0.003'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testFirstRelationshipIsChosenToDetermineGroup' time='0.005'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingVideoIdentifierIsAcceptable' time='0.011'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingGroupIsAcceptable' time='0.005'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingFreeThrows' time='0.007'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingNameThrows' time='0.004'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testValidResourceProcessedCorrectly' time='0.007'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingDurationThrows' time='0.005'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testInvalidCardArtworkUrlIsAcceptable' time='0.006'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingContributorsThrows' time='0.005'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testInvalidReleasedAtThrows' time='0.016'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingDifficultyIsAcceptableAndDefaultsToAllLevels' time='0.012'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testNullVideoIdentifierIsAcceptable' time='0.007'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingUriThrows' time='0.009'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingProfessionalThrows' time='0.007'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingPlainTextDescriptionThrows' time='0.005'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testNullOrdinalIsAcceptable' time='0.018'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testInvalidContentTypeThrows' time='0.007'/>
+    <testcase classname='emitronTests.ContentAdapterTest' name='testMissingTechnologyTripleThrows' time='0.005'/>
+  </testsuite>
+  <testsuite name='emitronTests.PermissionAdapterTest' tests='6' failures='0'>
+    <testcase classname='emitronTests.PermissionAdapterTest' name='testInvalidTagReturnsNil' time='0.008'/>
+    <testcase classname='emitronTests.PermissionAdapterTest' name='testMissingNameThrows' time='0.002'/>
+    <testcase classname='emitronTests.PermissionAdapterTest' name='testInvalidTypeThrows' time='0.004'/>
+    <testcase classname='emitronTests.PermissionAdapterTest' name='testInvalidUpdatedAtThrows' time='0.003'/>
+    <testcase classname='emitronTests.PermissionAdapterTest' name='testInvalidCreatedAtThrows' time='0.003'/>
+    <testcase classname='emitronTests.PermissionAdapterTest' name='testValidResourceProcessedCorrectly' time='0.003'/>
+  </testsuite>
+  <testsuite name='emitronTests.DownloadTest' tests='1' failures='0'>
+    <testcase classname='emitronTests.DownloadTest' name='testDeletingDownloadDoesNotDeleteContents' time='0.132'/>
+  </testsuite>
+  <testsuite name='emitronTests.DataCacheTest' tests='12' failures='0'>
+    <testcase classname='emitronTests.DataCacheTest' name='testChildContentStateSendsWhenDataCacheUpdated' time='0.019'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testContentSummaryStateSendsWhenDataCacheUpdated' time='0.003'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testChildContentStateCacheMissWhenNoChildContentForCollection' time='0.007'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testChildContentStateWhenAScreencast' time='0.002'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testContentDynamicStateNotPossibleToCacheMiss' time='0.006'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testCachedContentPersistableStateThrowsIfCacheMiss' time='0.002'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testChildContentStateWhenCacheMiss' time='0.002'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testContentSummaryStateWhenCacheMiss' time='0.002'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testCacheUpdateWorksWithCollection' time='0.357'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testContentDynamicStateSendsWhenDataCacheUpdated' time='0.002'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testUpdateUpdatesCacheAppropriately' time='0.009'/>
+    <testcase classname='emitronTests.DataCacheTest' name='testCachedContentPersistableStateFindsAppropriateResult' time='0.001'/>
+  </testsuite>
+  <testsuite name='emitronTests.ContentCategoryAdapterTest' tests='2' failures='0'>
+    <testcase classname='emitronTests.ContentCategoryAdapterTest' name='testCorrectlyBuildsFromRelationships' time='0.002'/>
+    <testcase classname='emitronTests.ContentCategoryAdapterTest' name='testDoesNotBuildContentCategoriesForInverseRelationships' time='0.006'/>
+  </testsuite>
+  <testsuite name='emitronTests.ProgressionAdapterTest' tests='8' failures='0'>
+    <testcase classname='emitronTests.ProgressionAdapterTest' name='testValidResourceProcessedCorrectly' time='0.005'/>
+    <testcase classname='emitronTests.ProgressionAdapterTest' name='testInvalidTargetThrows' time='0.002'/>
+    <testcase classname='emitronTests.ProgressionAdapterTest' name='testInvalidTypeThrows' time='0.002'/>
+    <testcase classname='emitronTests.ProgressionAdapterTest' name='testInvalidProgressThrows' time='0.002'/>
+    <testcase classname='emitronTests.ProgressionAdapterTest' name='testInvalidUpdatedAtThrows' time='0.004'/>
+    <testcase classname='emitronTests.ProgressionAdapterTest' name='testMissingContentRelationshipThrows' time='0.006'/>
+    <testcase classname='emitronTests.ProgressionAdapterTest' name='testMissingFinishedAndPercentCompleteHaveNoEffect' time='0.004'/>
+    <testcase classname='emitronTests.ProgressionAdapterTest' name='testInvalidCreatedAtThrows' time='0.005'/>
+  </testsuite>
+  <testsuite name='emitronTests.ContentTest' tests='3' failures='0'>
+    <testcase classname='emitronTests.ContentTest' name='testDeletingTheContentDeletesTheDownload' time='0.176'/>
+    <testcase classname='emitronTests.ContentTest' name='testCanCreateContentWithoutADownload' time='0.059'/>
+    <testcase classname='emitronTests.ContentTest' name='testCanAssignContentToADownload' time='0.068'/>
+  </testsuite>
+  <testsuite name='emitronTests.UserTest' tests='6' failures='0'>
+    <testcase classname='emitronTests.UserTest' name='testWithDownloadsMockWorksAsExpected' time='0.003'/>
+    <testcase classname='emitronTests.UserTest' name='testUserDictionaryHasRequiredFields' time='0.001'/>
+    <testcase classname='emitronTests.UserTest' name='testAvatarURLMustBeAURL' time='0.010'/>
+    <testcase classname='emitronTests.UserTest' name='testAdditionalEntriesInTheDictionaryAreIgnored' time='0.005'/>
+    <testcase classname='emitronTests.UserTest' name='testNoPermissionsWorksAsExpected' time='0.001'/>
+    <testcase classname='emitronTests.UserTest' name='testUserCorrectlyPopulatesWithDictionary' time='0.003'/>
+  </testsuite>
+  <testsuite name='emitronTests.SettingsManagerTest' tests='19' failures='0'>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testClosedCaptionOnPublisherSendsUpdates' time='0.025'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testDownloadQualityPublisherSendsUpdates' time='0.007'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testDownloadQualityDefaultIsHD' time='0.001'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testPlaybackSpeedSuccessfullyPersisted' time='0.004'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testPlaybackTokenDefaultIsNil' time='0.001'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testClosedCaptionOnSuccessfullyPersisted' time='0.005'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testSortFilterDefaultIsNewest' time='0.002'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testWifiOnlyDownloadsSuccessfullyPersisted' time='0.004'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testResetAllRemovesValuesInUserDefaults' time='0.012'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testPlaybackSpeedPublisherSendsUpdates' time='0.023'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testPlaybackTokenSuccessfullyPersisted' time='0.006'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testPlaybackSpeedDefaultIsStandard' time='0.002'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testClosedCaptionOnDefaultIsFalse' time='0.001'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testSortFilterPersistedSuccessfully' time='0.007'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testWifiOnlyDownloadsPublisherSendsUpdates' time='0.010'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testFiltersPersistedSuccessfully' time='0.006'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testFiltersDefaultIsEmptyArray' time='0.001'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testWifiOnlyDownloadsDefaultIsFalse' time='0.001'/>
+    <testcase classname='emitronTests.SettingsManagerTest' name='testDownloadQualitySuccessfullyPersisted' time='0.010'/>
+  </testsuite>
+  <testsuite name='emitronTests.PersistenceStore_UserKeychainTest' tests='2' failures='0'>
+    <testcase classname='emitronTests.PersistenceStore_UserKeychainTest' name='testRemovalOfUserFromKeychain' time='0.108'/>
+    <testcase classname='emitronTests.PersistenceStore_UserKeychainTest' name='testPersistenceToKeychain' time='0.101'/>
+  </testsuite>
+  <testsuite name='emitronTests.DomainAdapterTest' tests='7' failures='0'>
+    <testcase classname='emitronTests.DomainAdapterTest' name='testMissingOrdinalThrows' time='0.002'/>
+    <testcase classname='emitronTests.DomainAdapterTest' name='testMissingDescriptionIsAllowed' time='0.001'/>
+    <testcase classname='emitronTests.DomainAdapterTest' name='testMissingSlugThrows' time='0.001'/>
+    <testcase classname='emitronTests.DomainAdapterTest' name='testInvalidTypeThrows' time='0.001'/>
+    <testcase classname='emitronTests.DomainAdapterTest' name='testMissingNameThrows' time='0.002'/>
+    <testcase classname='emitronTests.DomainAdapterTest' name='testInvalidDomainLevelThrows' time='0.002'/>
+    <testcase classname='emitronTests.DomainAdapterTest' name='testValidResourceProcessedCorrectly' time='0.001'/>
+  </testsuite>
+  <testsuite name='emitronTests.ContentDomainAdapterTest' tests='2' failures='0'>
+    <testcase classname='emitronTests.ContentDomainAdapterTest' name='testDoesNotBuildContentCategoriesForInverseRelationships' time='0.001'/>
+    <testcase classname='emitronTests.ContentDomainAdapterTest' name='testCorrectlyBuildsFromRelationships' time='0.001'/>
+  </testsuite>
+  <testsuite name='emitronTests.GroupAdapterTest' tests='7' failures='0'>
+    <testcase classname='emitronTests.GroupAdapterTest' name='testMissingOrdinalThrows' time='0.004'/>
+    <testcase classname='emitronTests.GroupAdapterTest' name='testMissingNameThrows' time='0.003'/>
+    <testcase classname='emitronTests.GroupAdapterTest' name='testValidResourceProcessedCorrectly' time='0.002'/>
+    <testcase classname='emitronTests.GroupAdapterTest' name='testInvalidTypeThrows' time='0.006'/>
+    <testcase classname='emitronTests.GroupAdapterTest' name='testMissingRelationshipThrows' time='0.002'/>
+    <testcase classname='emitronTests.GroupAdapterTest' name='testDuplicateRelationshipChoosesFirst' time='0.009'/>
+    <testcase classname='emitronTests.GroupAdapterTest' name='testMissingDescriptionIsAcceptable' time='0.002'/>
+  </testsuite>
+  <testsuite name='emitronTests.AttachmentAdapterTest' tests='4' failures='0'>
+    <testcase classname='emitronTests.AttachmentAdapterTest' name='testInvalidKindThrows' time='0.003'/>
+    <testcase classname='emitronTests.AttachmentAdapterTest' name='testInvalidUrlThrows' time='0.002'/>
+    <testcase classname='emitronTests.AttachmentAdapterTest' name='testValidResourceProcessedCorrectly' time='0.001'/>
+    <testcase classname='emitronTests.AttachmentAdapterTest' name='testInvalidTypeThrows' time='0.002'/>
+  </testsuite>
+  <testsuite name='emitronTests.RefreshableTestCase' tests='1' failures='0'>
+    <testcase classname='emitronTests.RefreshableTestCase' name='test_refreshableUserDefaultsKey' time='0.071'/>
+  </testsuite>
+  <testsuite name='emitronTests.CategoryAdapterTest' tests='5' failures='0'>
+    <testcase classname='emitronTests.CategoryAdapterTest' name='testMissingOrdinalThrows' time='0.007'/>
+    <testcase classname='emitronTests.CategoryAdapterTest' name='testMissingNameThrows' time='0.006'/>
+    <testcase classname='emitronTests.CategoryAdapterTest' name='testInvalidTypeThrows' time='0.004'/>
+    <testcase classname='emitronTests.CategoryAdapterTest' name='testValidResourceProcessedCorrectly' time='0.002'/>
+    <testcase classname='emitronTests.CategoryAdapterTest' name='testMissingUriThrows' time='0.003'/>
+  </testsuite>
+  <testsuite name='emitronTests.PublishedPostFactoTest' tests='4' failures='0'>
+    <testcase classname='emitronTests.PublishedPostFactoTest' name='testNotifiedAfterChangeWithPublishedPostFacto' time='0.006'/>
+    <testcase classname='emitronTests.PublishedPostFactoTest' name='testGetNotificationsOfValueChangesFromPublished' time='0.010'/>
+    <testcase classname='emitronTests.PublishedPostFactoTest' name='testGetNotificationsOfValueChangesFromPublishedPostFacto' time='0.005'/>
+    <testcase classname='emitronTests.PublishedPostFactoTest' name='testNotifiedBeforeChangeWithPublished' time='0.002'/>
+  </testsuite>
+</testsuites>
